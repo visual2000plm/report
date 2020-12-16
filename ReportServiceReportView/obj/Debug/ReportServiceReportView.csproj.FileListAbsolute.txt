@@ -1,0 +1,25 @@
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\bin\ReportServiceReportView.dll
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\bin\ReportServiceReportView.pdb
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\obj\Debug\RdlCompile.cache
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\obj\Debug\RdlCompile.compiled
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\obj\Debug\ReportServiceReportView.dll
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\obj\Debug\ReportServiceReportView.pdb
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\obj\Debug\ReportServiceReportView.csprojResolveAssemblyReference.cache
+C:\Development_Workspace\PLMS Project\PLM Report Solution\ReportServiceReportView\bin\ReportServiceReportView.dll
+C:\Development_Workspace\PLMS Project\PLM Report Solution\ReportServiceReportView\bin\ReportServiceReportView.pdb
+C:\Development_Workspace\PLMS Project\PLM Report Solution\ReportServiceReportView\obj\Debug\ReportServiceReportView.dll
+C:\Development_Workspace\PLMS Project\PLM Report Solution\ReportServiceReportView\obj\Debug\ReportServiceReportView.pdb
+C:\Development_Workspace\PLMS Project\PLM Report Solution\ReportServiceReportView\bin\ReportServiceReportView.dll.config
+C:\Development_Workspace\PLMS Project\PLM Report Solution\ReportServiceReportView\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Development_Workspace\PLMS Project\PLM Report Solution\ReportServiceReportView\bin\Microsoft.ReportViewer.Common.dll
+C:\Development_Workspace\PLMS Project\PLM Report Solution\ReportServiceReportView\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Development_Workspace\PLMS Project\PLM Report Solution\ReportServiceReportView\obj\Debug\ReportServiceReportView.csprojResolveAssemblyReference.cache
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\ReportServiceReportView.dll.config
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\ReportServiceReportView.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\ReportServiceReportView.pdb
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\Microsoft.ReportViewer.Common.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\obj\Debug\ReportServiceReportView.csprojResolveAssemblyReference.cache
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\obj\Debug\ReportServiceReportView.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\obj\Debug\ReportServiceReportView.pdb

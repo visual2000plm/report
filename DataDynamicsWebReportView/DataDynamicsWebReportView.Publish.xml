@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\Visual2000\Webapp\ReportPublishDynamic" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/DataDynamics.Reports.Diagnostics.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Global.asax" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamics.Reports.Rendering.Excel.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamics.Reports.Dashboard.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/HybridReportEngine.pdb" publishTime="08/12/2015 13:27:51" />
+    <file relUrl="bin/DataDynamics.Reports.Design.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/ReportViewSetup.dll" publishTime="08/12/2015 13:27:49" />
+    <file relUrl="bin/DataDynamics.Reports.Rendering.Word.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamics.Reports.Calendar.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="ReportTraceResult.txt" publishTime="07/15/2015 13:08:18" />
+    <file relUrl="bin/ReportViewSetup.pdb" publishTime="08/12/2015 13:27:49" />
+    <file relUrl="bin/ICSharpCode.SharpZipLib.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/V2kPdfLib.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamicsWebReportView.dll" publishTime="08/12/2015 13:27:53" />
+    <file relUrl="bin/DataDynamics.Reports.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamics.Reports.Web.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamicsWebReportView.pdb" publishTime="08/12/2015 13:27:53" />
+    <file relUrl="Default.aspx" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamics.Reports.Rendering.Html.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/HybridReportEngine.exe" publishTime="08/12/2015 13:27:52" />
+    <file relUrl="bin/DataDynamics.Reports.Rendering.Xml.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamics.Reports.Rendering.Graphics.Unsafe.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamics.Reports.Rendering.Pdf.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Web.config" publishTime="08/11/2015 17:19:27" />
+    <file relUrl="bin/DataDynamics.Reports.OracleClient.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DataDynamics.Reports.Rendering.Graphics.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="CoreHandler.ashx" publishTime="03/04/2015 14:47:55" />
+    <file relUrl="bin/DataDynamics.Reports.Extensibility.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="DDWebReportView.aspx" publishTime="03/04/2015 14:47:55" />
+  </publishProfile>
+</publishData>

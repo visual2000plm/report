@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DB8586A-50E9-4043-951C-869EEA9DB9B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HybridReportEngine</RootNamespace>
+    <AssemblyName>HybridReportEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Engine\11.5.3700.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\CrystalDecisions.ReportSource\11.5.3700.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\CrystalDecisions.Shared\11.5.3700.0__692fbea5521e1304\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Calendar, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Calendar.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Dashboard, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Dashboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Design, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Diagnostics, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Extensibility, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Extensibility.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.OracleClient, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.OracleClient.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Excel, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Graphics, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Graphics.Unsafe, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Graphics.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Html, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Html.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Pdf, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Word, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Xml, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Web, Version=1.6.2260.3, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\ReportLibrary\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportingService2010">
+      <HintPath>..\ReportLibrary\ReportingService2010.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="V2kPdfLib">
+      <HintPath>..\ReportLibrary\V2kPdfLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CystalReportExport.cs" />
+    <Compile Include="DataDynamicsCustomResourceLocator.cs" />
+    <Compile Include="DataDynamicsExport.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportJobManagement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReportViewSetup\ReportViewSetup.csproj">
+      <Project>{096768A9-FE7D-4684-BD29-668FCE912D78}</Project>
+      <Name>ReportViewSetup</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

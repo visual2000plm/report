@@ -1,0 +1,1 @@
+<% @ WebHandler language="C#" class="DataDynamics.Reports.Web.CoreHandler, DataDynamics.Reports.Web, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2" codebehind="CoreHandler.cs" %>

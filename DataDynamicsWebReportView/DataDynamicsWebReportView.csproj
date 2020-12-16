@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7FBDB026-B711-42F1-BF96-780206C9133A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataDynamicsWebReportView</RootNamespace>
+    <AssemblyName>DataDynamicsWebReportView</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataDynamics.Reports, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Calendar, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Calendar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Dashboard, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Dashboard.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Design, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Diagnostics, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Diagnostics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Extensibility, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Extensibility.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.OracleClient, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.OracleClient.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Excel, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Excel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Graphics, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Graphics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Graphics.Unsafe, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Graphics.Unsafe.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Html, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Html.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Pdf, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Pdf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Word, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Word.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Rendering.Xml, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Rendering.Xml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DataDynamics.Reports.Web, Version=1.6.2084.14, Culture=neutral, PublicKeyToken=d557f2f30a260da2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\DataDynamics.Reports.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ReportLibrary\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="DDWebReportView.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DDWebReportView.aspx.cs">
+      <DependentUpon>DDWebReportView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DDWebReportView.aspx.designer.cs">
+      <DependentUpon>DDWebReportView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HybridReportEngine\HybridReportEngine.csproj">
+      <Project>{3db8586a-50e9-4043-951c-869eea9db9b3}</Project>
+      <Name>HybridReportEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReportViewSetup\ReportViewSetup.csproj">
+      <Project>{096768A9-FE7D-4684-BD29-668FCE912D78}</Project>
+      <Name>ReportViewSetup</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CoreHandler.ashx" />
+    <Content Include="Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>28999</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/ReportPublishDynamic</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

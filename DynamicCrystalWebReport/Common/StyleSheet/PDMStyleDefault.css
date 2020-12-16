@@ -1,0 +1,760 @@
+/****************************************************************************************/
+/* New Dev Express CSS Styles. Please do not add more... */
+/* We will use skin and themes concept, we will add css only for exceptions */
+/****************************************************************************************/
+*
+{
+	font-size: 8pt;
+	font-family:Tahoma;
+	font-variant:normal;
+}
+
+/* Container Table */
+.devContainerTable
+{
+	border-right: #B9D1F4 1px solid;
+	border-top: #B9D1F4 1px solid;
+	border-left: #B9D1F4 1px solid;
+	border-bottom: #B9D1F4 1px solid;
+	background-color: White;
+}
+
+/* Dark Titles ( Dark Blue ) */
+.devTitle
+{
+	background-image: url(../Images/Themes/default/TitleBackground.jpg);
+	font-weight: bold;
+	padding:2px 2px 2px 2px;
+	color: White;
+	border: solid 1px LightGray;
+}
+
+/* Light Titles ( Light Blue ) */
+.devSubTitle
+{
+	font-weight: bold;
+	background-image: url(../Images/Themes/default/SubTitleBackground.gif);
+	padding: 2px 2px 2px 2px;
+	border: solid 1px #EDF0F5;
+	color:#012D79;
+}
+
+/* Light Titles ( Light Blue ) */
+.devTextBold
+{
+	color:#012D79;
+	font-weight: bold;
+}
+.topFloatControl
+{
+	 z-index:99999;
+	 position :absolute ;
+}
+
+/****************************************************************************************/
+/* STANDARD RULES, TO BE USED IN EVERY PDM PAGES */
+/****************************************************************************************/
+
+/* INPUTS (textBox, DropDownList, etc...) */
+
+/* Standard inputs */
+.clsInput
+{
+	border-right: #808080 1px solid;
+	border-top: #808080 1px solid;
+	font-size: 9pt;
+	border-left: #808080 1px solid;
+	border-bottom: #808080 1px solid;
+	background-color: #ffffff;
+	text-decoration: none;
+	color:#000000;
+}
+/* Mandatory inputs */
+.clsInputMust
+{
+	border-right: #808080 1px solid;
+	border-top: #808080 1px solid;
+	font-size: 9pt;
+	border-left: #808080 1px solid;
+	border-bottom: #808080 1px solid;
+	background-color: #D4E5FC;
+	color:#000000;
+}
+/* Readonly inputs */
+.clsInputReadonly
+{
+	border-right: #808080 1px solid;
+	border-top: #808080 1px solid;
+	font-size: 9pt;
+	border-left: #808080 1px solid;
+	border-bottom: #808080 1px solid;
+	background-color: #ffffe8;
+}
+
+/* STANDARD TEXT (Labels) */
+.clsStdText
+{
+}
+.clsStdTextBold
+{
+	font-weight: bold;
+	color: #000000;
+}
+.clsStdTextSmall
+{
+	font-size: 7pt;
+}
+.clsStdTextBoldSmall
+{
+	font-weight: bold;
+	font-size: 7pt;
+	color: #000000;
+}
+.clsStdTextLarge
+{
+	font-size: 9pt;
+}
+.clsStdTextBoldLarge
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #000000;
+}
+
+/* Link label style */
+.clsStdTextLink
+{
+	text-decoration:underline;
+	color:Blue;
+	cursor:hand;
+}
+
+/* Print standard */
+.clsPrintTitle
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #000000;
+}
+.clsPrintTitleLarge
+{
+	font-weight: bold;
+	font-size: 11pt;
+	color: #000000;
+}
+.clsPrintWhiteOnBlack
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #ffffff;
+	background-color: #000000;
+}
+.clsPrintValue
+{
+	font-size: 9pt;
+	word-wrap:break-word;
+}
+.clsPrintLabel
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #000000;
+	width:150px;
+}
+.clsPrintHeader
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #000000;
+}
+
+.clsPrintGridTable
+{
+	border-left: Black 1px solid;
+}
+.clsPrintGridColumn
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #000000;
+	background-color: Gainsboro;
+	border-top: Black 1px solid;
+	border-right: Black 1px solid;
+	border-bottom: Black 1px solid;
+	padding-left:1px;
+}
+.clsPrintGridValue
+{
+	font-size: 9pt;
+	color: #000000;
+
+	border-right: Black 1px solid;
+	border-bottom: Black 1px solid;
+	padding-left:1px;
+}
+/* Background style of each inner table */
+.clsPrintInnerTable
+{
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	background-color: White;
+}
+.clsPrintTitleLabel
+{
+	font-size: 10pt;
+	color: #000000;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+}
+
+/* BUTTONS */
+.clsButton
+{
+	border-right: #0066cc 1px solid;
+	border-top: #0066cc 1px solid;
+	border-left: #0066cc 1px solid;
+	border-bottom: #0066cc 1px solid;
+
+	background-image: url(../Images/Themes/default/ButtonBackground.gif);
+	cursor:hand;
+}
+
+.clsApprovedButton
+{
+	border-right: Green 1px solid;
+	border-top: Green 1px solid;
+	border-left: Green 1px solid;
+	border-bottom: Green 1px solid;
+	vertical-align: middle;
+	background-image: url(../Images/ApprovedBg.gif);
+	cursor:hand;
+}
+
+.clsNeedApprovedButton
+{
+	border-right: Red 1px solid;
+	border-top: Red 1px solid;
+	border-left: Red 1px solid;
+	border-bottom: Red 1px solid;
+	vertical-align: middle;
+	background-image: url(../Images/NotApprovedBg.gif);
+	cursor:hand;
+}
+
+/* Background style of each outter table */
+.clsStdTable
+{
+	border-right: #003366 1px solid;
+	border-top: #003366 1px solid;
+	border-left: #003366 1px solid;
+	border-bottom: #003366 1px solid;
+	background-color: #F6F7F8;
+}
+
+/* Background style of each inner table */
+.clsStdInnerTable
+{
+	border-right: #B9D1F4 1px solid;
+	border-top: #B9D1F4 1px solid;
+	border-left: #B9D1F4 1px solid;
+	border-bottom: #B9D1F4 1px solid;
+	background-color: White;
+}
+
+/* Dark Titles ( Dark Blue ) */
+.clsTitle
+{
+	background-image: url(../Images/Themes/default/TitleBackground.jpg);
+	font-weight: bold;
+	padding:2px 2px 2px 2px;
+	color: White;
+	border: solid 1px LightGray;
+}
+
+/* Light Titles ( Light Blue ) */
+.clsSubTitle
+{
+	background-image: url(../Images/Themes/default/SubTitleBackground.gif);
+	font-weight: bold;
+	padding: 2px 2px 2px 2px;
+	border: solid 1px #EDF0F5;
+}
+
+/* LightBackground max=23px ( Light Blue ) */
+.clsLightBackground
+{
+	background-image: url(../Images/Themes/default/SubTitleBackground.gif);
+}
+
+/* DarkBackground max=23px ( Dark Blue ) */
+.clsDarkBackground
+{
+	background-image: url(../Images/Themes/default/DarkBackground.jpg);
+}
+
+.clsMasterHeader
+{
+	border-right: #B9D1F4 1px solid;
+	border-top: #B9D1F4 1px solid;
+	border-left: #B9D1F4 1px solid;
+	border-bottom: #B9D1F4 1px solid;
+}
+
+.clsToolBarLight
+{
+	padding-left: 2px;
+	background-image: url(../Images/Themes/default/ToolBarLightBackground.gif);
+}
+
+/****************************************************************************************/
+/* CUSTOM RULES, ONLY FOR SKINS PURPOSE, DO NOT USE */
+/****************************************************************************************/
+
+/* Web page <body> */
+.clsBody
+{
+	background-image: url(../Images/webpdmbg.gif);
+	background-attachment: fixed;
+
+	/*scrollbar-base-color:#000000;
+	scrollbar-track-color:AliceBlue;
+	scrollbar-face-color:#b0c4de;
+	scrollbar-arrow-color:#000000;
+	scrollbar-3dlight-color:#E0E0E0;
+	scrollbar-darkshadow-color:#708090;
+	scrollbar-highlight-color:#e0ffff;
+	scrollbar-shadow-color:#999999;	*/
+}
+
+/* Search Toolbar */
+.clsSearchToolBar
+{
+	font-weight: bold;
+	padding-left:2px;
+	background-image: url(../Images/Themes/default/SubTitleBackground.gif);
+}
+/* Light Toolbar (Use only if really need a toolbar) */
+.clsLightToolBar
+{
+	font-weight: bold;
+	padding-left:2px;
+	background-image: url(../Images/Themes/default/ToolBarLightBackground.gif);
+}
+/* Dark Toolbar (Use only if really need a toolbar) */
+.clsDarkToolBar
+{
+	font-weight: bold;
+	padding-left:2px;
+	color: White;
+	background-image: url(../Images/Themes/default/ToolBarDarkBackground.jpg);
+}
+
+/* Grid */
+.clsGridHeader
+{
+	background-image:url(../Images/Themes/default/GridHeaderBackground.gif);
+	color:MidnightBlue;
+}
+.clsGridSelector
+{
+	background-color:AliceBlue;
+}
+.clsGridSelectedRow
+{
+	background-color:#BACFEC;
+}
+.clsGridFooter
+{
+	background-image:url(../Images/Themes/default/GridFooterBackground.gif);
+	color:MidnightBlue;
+}
+.clsGridPager
+{
+	background-image:url(../Images/Themes/default/GridFooterBackground.gif);
+	color:MidnightBlue;
+}
+.clsGridButton
+{
+	border-right: #0066cc 1px solid;
+	border-top: #0066cc 1px solid;
+	border-left: #0066cc 1px solid;
+	border-bottom: #0066cc 1px solid;
+	vertical-align: middle;
+	background-image: url(../Images/Themes/default/ButtonBackground.gif);
+	background-color: AliceBlue;
+	cursor:hand;
+}
+
+/* Main menu */
+.clsMenuItemDefault
+{
+	cursor: default;
+	padding: 2px 2px 2px 2px;
+	text-align: left;
+}
+.clsMenuItemHover
+{
+	border-right: #0066cc 1px solid;
+	border-top: #0066cc 1px solid;
+	border-left: #0066cc 1px solid;
+	border-bottom: #0066cc 1px solid;
+	background-color: #E2EDFD;
+	cursor: hand;
+	padding: 1px 1px 1px 1px;
+	text-align: left;
+}
+.clsMenuItemSelect
+{
+	border-right: #0066cc 1px solid;
+	border-top: #0066cc 1px solid;
+	border-left: #0066cc 1px solid;
+	border-bottom: #0066cc 1px solid;
+	background-color: #E2EDFD;
+	cursor: hand;
+	padding: 1px 1px 1px 1px;
+	text-align: left;
+}
+.clsMenuGroupHover
+{
+	font-weight: bold;
+	cursor: Default;
+	background-image: url(../Images/Themes/default/RoundedExplorer.gif);
+	padding-left: 3px;
+}
+.clsMenuGroupExpand
+{
+	font-weight: bold;
+	cursor: Default;
+	background-image: url(../Images/Themes/default/RoundedExplorer.gif);
+	padding-left: 3px;
+}
+.clsMenuGroupCollapse
+{
+	padding-left: 3px;
+	font-weight: bold;
+	background-image: url(../Images/Themes/default/RoundedExplorer.gif);
+	cursor: default;
+}
+.clsMenuGroupDefault
+{
+	cursor: default;
+}
+
+/* Menu Toogle button */
+.clsMenuToogleBg
+{
+    background-color:#c6dbff;
+    border: solid 1px #003894;
+    cursor: hand;
+}
+
+.clsMenuToogleButtonOpen
+{
+    background-image: url(../Images/DevVisuals/telerikCollapseButton.gif);
+    background-repeat:no-repeat;
+    background-position:center;
+    border: none;
+    background-color:Transparent;
+    margin:0px;
+    padding:0px;
+    cursor: hand;
+    width:5px;
+    height:100%;
+}
+
+.clsMenuToogleButtonOpen:hover
+{
+    border-top: solid 1px #003894;
+    border-bottom: solid 1px #003894;
+    background-color:#c6e9ff;
+}
+
+/* ToolBar buttons */
+.clsToolBarBackground
+{
+	background-image: url(../Images/Themes/default/spacer.gif);
+}
+.clsToolBarHome
+{
+	background-image: url(../Images/Themes/default/btnHome.gif);
+	cursor:hand;
+}
+.clsToolBarHelp
+{
+	background-image: url(../Images/Themes/default/btnHelp.gif);
+	cursor:hand;
+}
+.clsToolBarLogout
+{
+	background-image: url(../Images/Themes/default/btnLogout.gif);
+	cursor:hand;
+}
+.clsToolBarOffline
+{
+	background-image: url(../Images/Themes/default/btnOffline.gif);
+	cursor:hand;
+}
+.clsToolBarOnline
+{
+	background-image: url(../Images/Themes/default/btnOnline.gif);
+	cursor:hand;
+}
+.clsToolBarOptions
+{
+	background-image: url(../Images/Themes/default/btnOptions.gif);
+	cursor:hand;
+}
+.clsToolBarLogoBottom
+{
+	background-image: url(../Images/Themes/default/logoBottom.gif);
+}
+.clsToolBarSpacer
+{
+	background-image: url(../Images/Themes/default/spacer.gif);
+}
+.clsToolBarShortcut
+{
+	background-image: url(../Images/Themes/default/btnShortcut.gif);
+	cursor:hand;
+}
+.clsToolBarTasks
+{
+	background-image: url(../Images/Themes/default/btnTasks.gif);
+	cursor:hand;
+}
+.clsToolBarTaskSearch
+{
+	background-image: url(../Images/Themes/default/btnTaskSearch.gif);
+	cursor:hand;
+}
+.clsToolBarProductSearch
+{
+	background-image: url(../Images/Themes/default/btnProductSearch.gif);
+	cursor:hand;
+}
+
+/* Entete */
+.clsEntete
+{
+	background-image: url(../Images/Themes/default/PdmHeader.jpg);
+}
+.clsEnteteBackground
+{
+	background-image: url(../Images/Themes/default/EnteteBack.gif);
+}
+
+/* Inv Logo */
+.clsInvTopLogo
+{
+	background-image: url(../Images/Themes/default/WmsEntete.jpg);
+}
+.clsInvTopAreaBackground
+{
+	background-image: url(../Images/Themes/default/EnteteBack.gif);
+}
+
+/******************************WE NEED TO REMOVE THIS SECTION ***************************/
+
+/* Don't Remove 2008 OCT 08*/
+
+.clsEmptyField
+{
+	background-color: transparent;
+}
+.cellGrayBorder
+{
+	border: solid 1px #cccccc;
+}
+.clsBanner
+{
+	background-image: url(../images/barre.jpg);
+	border-bottom: solid 1px #606060;
+}
+.clsBannerHeader
+{
+	background-image: url(../Images/WelcomeImage/back-entete.gif);
+}
+.clsTopMenu
+{
+	background-image: url(../images/topMenuBack.jpg);
+}
+.clsTopHead
+{
+	background-image: url(../images/topHead.jpg);
+}
+.clsHeadShad
+{
+	background-image: url(../images/shad.gif);
+}
+.clsWindowHead
+{
+	font-weight: bold;
+	font-size: 10pt;
+	cursor: default;
+	color: #ffffff;
+}
+.clsLoginButton
+{
+	background-image: url(../Images/WelcomeImage/btnLogin.gif);
+	border-style: none;
+	width: 80;
+	height: 20;
+	cursor:hand;
+}
+.clsChatButton
+{
+	background-image: url(../Images/chatBtnSend.gif);
+	cursor:hand;
+}
+
+.headerBar
+{
+	background-color: #4b93f5;
+}
+
+.clsErrorMsg
+{
+	font-weight: bold;
+	color:#3366CC;
+}
+.clsMenu
+{
+	border-style:none;
+}
+.clsBorderLeft
+{
+	border-left: solid 1px #cccccc;
+}
+.clsBorderRight
+{
+	border-right: solid 1px #cccccc;
+}
+.clsBorderTop
+{
+	border-top: solid 1px #cccccc;
+}
+.clsBorderBottom
+{
+	border-bottom: solid 1px #cccccc;
+}
+.clsBorderLeftTop
+{
+	border-left: solid 1px #cccccc;
+	border-top: solid 1px #cccccc;
+}
+.clsBorderRightTop
+{
+	border-right: solid 1px #cccccc;
+	border-top: solid 1px #cccccc;
+}
+.clsBorderLeftBottom
+{
+	border-left: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+.clsBorderRightBottom
+{
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+.clsTab
+{
+	font-size: 9pt;
+	border:none;
+}
+.clsTabDefault
+{
+	background-color: #F0F8FF;
+	font-size: 9pt;
+}
+.clsTabHover
+{
+	font-size: 9pt;
+	text-decoration: underline;
+}
+.clsTabSelected
+{
+	font-weight: bold;
+	font-size: 9pt;
+	background-color: #F0F8FF;
+}
+.clsTabBorder
+{
+	border:solid 1px #0056D7;
+}
+
+.clsLinkText
+{
+	color:#00008B;
+	text-decoration:none;
+}
+.clsGridLinkText
+{
+	color:#00008B;
+}
+.clsHeader
+{
+	border-bottom: gray 1px solid;
+	background-color: #639ace;
+}
+.clsLabelTag
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #000000;
+}
+.clsLinkButton
+{
+	font-weight: bold;
+	font-size: 9pt;
+	cursor: hand;
+	color: #000000;
+}
+.clsLblButton
+{
+	border-right: #808080 1px solid;
+	border-top: #808080 1px solid;
+	font-size: 9pt;
+	border-left: #808080 1px solid;
+	cursor: hand;
+	border-bottom: #808080 1px solid;
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	background-color: #f7f7f7;
+}
+
+.clsStdTextCursor
+{
+	cursor:   default  ;
+}
+.clsStdTextCursorHand
+{
+	cursor:   hand  ;
+}
+
+.clsBoxTable Left
+{
+	border-left: #a9a9a9 1px solid;
+}
+.clsBoxTable Right
+{
+	border-right: #a9a9a9 1px solid;
+}
+.clsBoxTable Top
+{
+	border-top : #a9a9a9 1px solid;
+}
+.clsBoxTable Bottom
+{
+	border-bottom : #a9a9a9 1px solid;
+}
+.clsBoxTable
+{
+	border-left: #a9a9a9 1px solid;
+	border-right: #a9a9a9 1px solid;
+	border-top: #a9a9a9 1px solid;
+	border-bottom: #a9a9a9 1px solid;
+}

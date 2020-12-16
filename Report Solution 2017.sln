@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportViewSetup", "ReportViewSetup\ReportViewSetup.csproj", "{096768A9-FE7D-4684-BD29-668FCE912D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportServiceReportView", "ReportServiceReportView\ReportServiceReportView.csproj", "{5872B28C-2D41-4E81-B69A-C97DBD926AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportExeHost", "ReportExeHost\ReportExeHost.csproj", "{A933F997-92BA-4D49-9D34-102EEEA4C8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutipleHybridReportHost", "MutipleHybridReport\MutipleHybridReportHost.csproj", "{37387720-864C-4E52-9024-64BCE6D03D90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridReportEngine", "HybridReportEngine\HybridReportEngine.csproj", "{3DB8586A-50E9-4043-951C-869EEA9DB9B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportLibrary", "ReportLibrary", "{468D91C1-3583-4133-B709-DB4B9C36C23F}"
+	ProjectSection(SolutionItems) = preProject
+		ReportLibrary\DataDynamics.Reports.Calendar.dll = ReportLibrary\DataDynamics.Reports.Calendar.dll
+		ReportLibrary\DataDynamics.Reports.Dashboard.dll = ReportLibrary\DataDynamics.Reports.Dashboard.dll
+		ReportLibrary\DataDynamics.Reports.Design.dll = ReportLibrary\DataDynamics.Reports.Design.dll
+		ReportLibrary\DataDynamics.Reports.Diagnostics.dll = ReportLibrary\DataDynamics.Reports.Diagnostics.dll
+		ReportLibrary\DataDynamics.Reports.dll = ReportLibrary\DataDynamics.Reports.dll
+		ReportLibrary\DataDynamics.Reports.Extensibility.dll = ReportLibrary\DataDynamics.Reports.Extensibility.dll
+		ReportLibrary\DataDynamics.Reports.OracleClient.dll = ReportLibrary\DataDynamics.Reports.OracleClient.dll
+		ReportLibrary\DataDynamics.Reports.Rendering.Excel.dll = ReportLibrary\DataDynamics.Reports.Rendering.Excel.dll
+		ReportLibrary\DataDynamics.Reports.Rendering.Graphics.dll = ReportLibrary\DataDynamics.Reports.Rendering.Graphics.dll
+		ReportLibrary\DataDynamics.Reports.Rendering.Graphics.Unsafe.dll = ReportLibrary\DataDynamics.Reports.Rendering.Graphics.Unsafe.dll
+		ReportLibrary\DataDynamics.Reports.Rendering.Html.dll = ReportLibrary\DataDynamics.Reports.Rendering.Html.dll
+		ReportLibrary\DataDynamics.Reports.Rendering.Pdf.dll = ReportLibrary\DataDynamics.Reports.Rendering.Pdf.dll
+		ReportLibrary\DataDynamics.Reports.Rendering.Word.dll = ReportLibrary\DataDynamics.Reports.Rendering.Word.dll
+		ReportLibrary\DataDynamics.Reports.Rendering.Xml.dll = ReportLibrary\DataDynamics.Reports.Rendering.Xml.dll
+		ReportLibrary\DataDynamics.Reports.Web.dll = ReportLibrary\DataDynamics.Reports.Web.dll
+		ReportLibrary\ICSharpCode.SharpZipLib.dll = ReportLibrary\ICSharpCode.SharpZipLib.dll
+		ReportLibrary\ReportingService2010.dll = ReportLibrary\ReportingService2010.dll
+		ReportLibrary\V2kPdfLib.dll = ReportLibrary\V2kPdfLib.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDynamicsWebReportView", "DataDynamicsWebReportView\DataDynamicsWebReportView.csproj", "{7FBDB026-B711-42F1-BF96-780206C9133A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicCrystalWebReport", "DynamicCrystalWebReport\DynamicCrystalWebReport.csproj", "{7551D237-D434-47B1-8F5A-6A12604C2447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Debug|x86.Build.0 = Debug|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Release|x86.ActiveCfg = Release|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Release|x86.Build.0 = Release|Any CPU
+		{5872B28C-2D41-4E81-B69A-C97DBD926AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5872B28C-2D41-4E81-B69A-C97DBD926AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5872B28C-2D41-4E81-B69A-C97DBD926AED}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5872B28C-2D41-4E81-B69A-C97DBD926AED}.Debug|x86.Build.0 = Debug|Any CPU
+		{5872B28C-2D41-4E81-B69A-C97DBD926AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5872B28C-2D41-4E81-B69A-C97DBD926AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5872B28C-2D41-4E81-B69A-C97DBD926AED}.Release|x86.ActiveCfg = Release|Any CPU
+		{5872B28C-2D41-4E81-B69A-C97DBD926AED}.Release|x86.Build.0 = Release|Any CPU
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Debug|x86.ActiveCfg = Debug|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Debug|x86.Build.0 = Debug|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Release|Any CPU.ActiveCfg = Release|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Release|x86.ActiveCfg = Release|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Release|x86.Build.0 = Release|x86
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Debug|x86.Build.0 = Debug|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Release|x86.ActiveCfg = Release|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Release|x86.Build.0 = Release|Any CPU
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Debug|x86.ActiveCfg = Debug|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Debug|x86.Build.0 = Debug|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Release|Any CPU.ActiveCfg = Release|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Release|x86.ActiveCfg = Release|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Release|x86.Build.0 = Release|x86
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Debug|x86.Build.0 = Debug|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Release|x86.ActiveCfg = Release|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Release|x86.Build.0 = Release|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Debug|x86.Build.0 = Debug|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Release|x86.ActiveCfg = Release|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.visual-2000.com:8080/tfs/development%202010
+		SccProjectUniqueName0 = ReportViewSetup\\ReportViewSetup.csproj
+		SccProjectName0 = ReportViewSetup
+		SccLocalPath0 = ReportViewSetup
+		SccProjectUniqueName1 = ReportServiceReportView\\ReportServiceReportView.csproj
+		SccProjectName1 = ReportServiceReportView
+		SccLocalPath1 = ReportServiceReportView
+		SccProjectUniqueName2 = ReportExeHost\\ReportExeHost.csproj
+		SccProjectName2 = ReportExeHost
+		SccLocalPath2 = ReportExeHost
+		SccProjectUniqueName3 = MutipleHybridReport\\MutipleHybridReportHost.csproj
+		SccProjectName3 = MutipleHybridReport
+		SccLocalPath3 = MutipleHybridReport
+		SccProjectUniqueName4 = HybridReportEngine\\HybridReportEngine.csproj
+		SccProjectName4 = HybridReportEngine
+		SccLocalPath4 = HybridReportEngine
+		SccProjectUniqueName5 = DataDynamicsWebReportView\\DataDynamicsWebReportView.csproj
+		SccProjectName5 = DataDynamicsWebReportView
+		SccLocalPath5 = DataDynamicsWebReportView
+		SccProjectUniqueName6 = DynamicCrystalWebReport\\DynamicCrystalWebReport.csproj
+		SccProjectName6 = DynamicCrystalWebReport
+		SccLocalPath6 = DynamicCrystalWebReport
+		SccLocalPath7 = .
+	EndGlobalSection
+EndGlobal

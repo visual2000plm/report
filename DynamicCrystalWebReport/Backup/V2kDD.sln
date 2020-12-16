@@ -1,0 +1,134 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicCrystalWebReportView", "DynamicCrystalWebReportView.csproj", "{7551D237-D434-47B1-8F5A-6A12604C2447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportViewSetup", "..\ReportViewSetup\ReportViewSetup.csproj", "{096768A9-FE7D-4684-BD29-668FCE912D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDynamicsWebReportView", "..\DataDynamicsWebReportView\DataDynamicsWebReportView.csproj", "{7FBDB026-B711-42F1-BF96-780206C9133A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportLibrary", "ReportLibrary", "{4B77FA92-057F-42CC-A6C3-E916E36F3DB6}"
+	ProjectSection(SolutionItems) = preProject
+		..\ReportLibrary\DataDynamics.Reports.Calendar.dll = ..\ReportLibrary\DataDynamics.Reports.Calendar.dll
+		..\ReportLibrary\DataDynamics.Reports.Dashboard.dll = ..\ReportLibrary\DataDynamics.Reports.Dashboard.dll
+		..\ReportLibrary\DataDynamics.Reports.Design.dll = ..\ReportLibrary\DataDynamics.Reports.Design.dll
+		..\ReportLibrary\DataDynamics.Reports.Diagnostics.dll = ..\ReportLibrary\DataDynamics.Reports.Diagnostics.dll
+		..\ReportLibrary\DataDynamics.Reports.dll = ..\ReportLibrary\DataDynamics.Reports.dll
+		..\ReportLibrary\DataDynamics.Reports.Extensibility.dll = ..\ReportLibrary\DataDynamics.Reports.Extensibility.dll
+		..\ReportLibrary\DataDynamics.Reports.OracleClient.dll = ..\ReportLibrary\DataDynamics.Reports.OracleClient.dll
+		..\ReportLibrary\DataDynamics.Reports.Rendering.Excel.dll = ..\ReportLibrary\DataDynamics.Reports.Rendering.Excel.dll
+		..\ReportLibrary\DataDynamics.Reports.Rendering.Graphics.dll = ..\ReportLibrary\DataDynamics.Reports.Rendering.Graphics.dll
+		..\ReportLibrary\DataDynamics.Reports.Rendering.Graphics.Unsafe.dll = ..\ReportLibrary\DataDynamics.Reports.Rendering.Graphics.Unsafe.dll
+		..\ReportLibrary\DataDynamics.Reports.Rendering.Html.dll = ..\ReportLibrary\DataDynamics.Reports.Rendering.Html.dll
+		..\ReportLibrary\DataDynamics.Reports.Rendering.Pdf.dll = ..\ReportLibrary\DataDynamics.Reports.Rendering.Pdf.dll
+		..\ReportLibrary\DataDynamics.Reports.Rendering.Word.dll = ..\ReportLibrary\DataDynamics.Reports.Rendering.Word.dll
+		..\ReportLibrary\DataDynamics.Reports.Rendering.Xml.dll = ..\ReportLibrary\DataDynamics.Reports.Rendering.Xml.dll
+		..\ReportLibrary\DataDynamics.Reports.Web.dll = ..\ReportLibrary\DataDynamics.Reports.Web.dll
+		..\ReportLibrary\ICSharpCode.SharpZipLib.dll = ..\ReportLibrary\ICSharpCode.SharpZipLib.dll
+		..\ReportLibrary\V2kPdfLib.dll = ..\ReportLibrary\V2kPdfLib.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridReportEngine", "ReportPrintExe\HybridReportEngine.csproj", "{3DB8586A-50E9-4043-951C-869EEA9DB9B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportExeHost", "ReportExeHost\ReportExeHost.csproj", "{A933F997-92BA-4D49-9D34-102EEEA4C8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutipleHybridReportHost", "MutipleHybridReport\MutipleHybridReportHost.csproj", "{37387720-864C-4E52-9024-64BCE6D03D90}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.visual-2000.com:8080/tfs/development%202010
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\DataDynamicsWebReportView\\DataDynamicsWebReportView.csproj
+		SccProjectName1 = ../DataDynamicsWebReportView
+		SccLocalPath1 = ..\\DataDynamicsWebReportView
+		SccProjectUniqueName2 = DynamicCrystalWebReportView.csproj
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = ..\\ReportViewSetup\\ReportViewSetup.csproj
+		SccProjectName3 = ../ReportViewSetup
+		SccLocalPath3 = ..\\ReportViewSetup
+		SccProjectUniqueName4 = ReportExeHost\\ReportExeHost.csproj
+		SccProjectName4 = ReportExeHost
+		SccLocalPath4 = ReportExeHost
+		SccProjectUniqueName5 = ReportPrintExe\\HybridReportEngine.csproj
+		SccProjectName5 = ReportPrintExe
+		SccLocalPath5 = ReportPrintExe
+		SccProjectUniqueName6 = MutipleHybridReport\\MutipleHybridReportHost.csproj
+		SccProjectName6 = MutipleHybridReport
+		SccLocalPath6 = MutipleHybridReport
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7551D237-D434-47B1-8F5A-6A12604C2447}.Release|x86.ActiveCfg = Release|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{096768A9-FE7D-4684-BD29-668FCE912D78}.Release|x86.ActiveCfg = Release|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7FBDB026-B711-42F1-BF96-780206C9133A}.Release|x86.ActiveCfg = Release|Any CPU
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Debug|x86.ActiveCfg = Debug|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Debug|x86.Build.0 = Debug|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Release|Any CPU.ActiveCfg = Release|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Release|x86.ActiveCfg = Release|x86
+		{3DB8586A-50E9-4043-951C-869EEA9DB9B3}.Release|x86.Build.0 = Release|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Debug|x86.ActiveCfg = Debug|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Debug|x86.Build.0 = Debug|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Release|Any CPU.ActiveCfg = Release|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Release|x86.ActiveCfg = Release|x86
+		{A933F997-92BA-4D49-9D34-102EEEA4C8BD}.Release|x86.Build.0 = Release|x86
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{37387720-864C-4E52-9024-64BCE6D03D90}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

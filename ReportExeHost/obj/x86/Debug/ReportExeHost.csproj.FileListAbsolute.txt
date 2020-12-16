@@ -1,0 +1,27 @@
+D:\Development_PLMS\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportExeHost.exe.config
+D:\Development_PLMS\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportExeHost.exe
+D:\Development_PLMS\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportExeHost.pdb
+D:\Development_PLMS\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportViewSetup.dll
+D:\Development_PLMS\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportViewSetup.pdb
+D:\Development_PLMS\PLM Report Solution\DynamicWebReportView\ReportExeHost\obj\x86\Debug\ReportExeHost.exe
+D:\Development_PLMS\PLM Report Solution\DynamicWebReportView\ReportExeHost\obj\x86\Debug\ReportExeHost.pdb
+D:\Development_PLMS\PLM Report Solution\DynamicWebReportView\ReportExeHost\obj\x86\Debug\ReportExeHost.csprojResolveAssemblyReference.cache
+C:\Development_Workspace\PLMS Project\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportExeHost.exe.config
+C:\Development_Workspace\PLMS Project\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportExeHost.exe
+C:\Development_Workspace\PLMS Project\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportExeHost.pdb
+C:\Development_Workspace\PLMS Project\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportViewSetup.dll
+C:\Development_Workspace\PLMS Project\PLM Report Solution\DynamicWebReportView\ReportExeHost\bin\Debug\ReportViewSetup.pdb
+C:\Development_Workspace\PLMS Project\PLM Report Solution\DynamicWebReportView\ReportExeHost\obj\x86\Debug\ReportExeHost.csprojResolveAssemblyReference.cache
+C:\Development_Workspace\PLMS Project\PLM Report Solution\DynamicWebReportView\ReportExeHost\obj\x86\Debug\ReportExeHost.exe
+C:\Development_Workspace\PLMS Project\PLM Report Solution\DynamicWebReportView\ReportExeHost\obj\x86\Debug\ReportExeHost.pdb
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\bin\Debug\ReportExeHost.exe.config
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\bin\Debug\ReportExeHost.exe
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\bin\Debug\ReportExeHost.pdb
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\bin\Debug\ReportViewSetup.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\bin\Debug\ReportViewSetup.pdb
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\obj\x86\Debug\ReportExeHost.csprojResolveAssemblyReference.cache
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\obj\x86\Debug\ReportExeHost.exe
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\obj\x86\Debug\ReportExeHost.pdb
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\bin\Debug\DataDynamics.Reports.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\bin\Debug\DataDynamics.Reports.Diagnostics.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportExeHost\bin\Debug\DataDynamics.Reports.Extensibility.dll

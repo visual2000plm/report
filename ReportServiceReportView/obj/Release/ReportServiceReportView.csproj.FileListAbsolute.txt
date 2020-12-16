@@ -1,0 +1,14 @@
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\bin\ReportServiceReportView.dll
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\bin\ReportServiceReportView.pdb
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\obj\Release\RdlCompile.cache
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\obj\Release\RdlCompile.compiled
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\obj\Release\ReportServiceReportView.dll
+D:\Development_PLMS\ReportServiceReportView\ReportServiceReportView\obj\Release\ReportServiceReportView.pdb
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\ReportServiceReportView.dll.config
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\ReportServiceReportView.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\ReportServiceReportView.pdb
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\Microsoft.ReportViewer.Common.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\bin\Microsoft.ReportViewer.WebForms.xml
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\obj\Release\ReportServiceReportView.dll
+C:\Development_Workspace\PLMS Project\Report Solution 2017\ReportServiceReportView\obj\Release\ReportServiceReportView.pdb

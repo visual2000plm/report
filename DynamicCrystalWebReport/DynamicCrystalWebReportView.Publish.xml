@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\Visual2000\Webapp\ReportPublishCrystal" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/DynamicWebReportView.dll" publishTime="08/12/2015 13:27:53" />
+    <file relUrl="Common/Images/Themes/default/ToolBarDarkBackground.jpg" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/logoBottom.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Global.asax" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/DynamicWebReportView.pdb" publishTime="08/12/2015 13:27:53" />
+    <file relUrl="Common/Images/Themes/default/WmsEntete.jpg" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnHome.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/HybridReportEngine.pdb" publishTime="08/12/2015 13:27:51" />
+    <file relUrl="Common/StyleSheet/PDMStyleDefault.css" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/LightBackground.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnOffline.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/arrow.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/ReportViewSetup.dll" publishTime="08/12/2015 13:27:49" />
+    <file relUrl="Common/Images/Themes/default/OpenToggle.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/RoundedExplorer.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnTaskSearch.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/ReportViewSetup.pdb" publishTime="08/12/2015 13:27:49" />
+    <file relUrl="Common/Images/Themes/default/CloseToggle.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/ButtonBackground.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnSecurity.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/GridHeaderBackground1.GIF" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/ICSharpCode.SharpZipLib.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnLogout.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/V2kPdfLib.dll" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnShortcut.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/PdmHeader.jpg" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="ReleaseNotes.txt" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/TitleBackground.jpg" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/varrow.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/spacer.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/EnteteBack.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="bin/HybridReportEngine.exe" publishTime="08/12/2015 13:27:52" />
+    <file relUrl="Common/Images/Themes/default/GridAddNewBox.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnOptions.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/SubTitleBackground.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="ReportPdfPrint.aspx" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnProductSearch.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/InvLogon.jpg" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/ToggleBg.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnTasks.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnOnline.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/ToolBarLightBackground.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Web.config" publishTime="08/12/2015 10:50:10" />
+    <file relUrl="CrystalReportView.aspx" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/GridFooterBackground.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="ReportTraceResult.txt" publishTime="07/15/2015 13:08:18" />
+    <file relUrl="Common/Images/Themes/default/GridHeaderBackground.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/btnHelp.gif" publishTime="03/04/2015 14:47:56" />
+    <file relUrl="Common/Images/Themes/default/DarkBackground.jpg" publishTime="03/04/2015 14:47:56" />
+  </publishProfile>
+</publishData>
